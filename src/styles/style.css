@@ -1,0 +1,179 @@
+
+.links{
+    padding: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+.links:hover{
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.activelink:hover{
+    color: rgba(5,209,252,1);
+ border-bottom: 2px solid rgba(5,209,252,1);
+ cursor: pointer;
+}
+
+.activelink{
+ color: rgba(5,209,252,1);
+ border-bottom: 2px solid rgba(5,209,252,1);
+     padding: 20px;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height : 70px;
+  font-size: 20px;
+
+  
+}
+
+body{
+    background: linear-gradient(90deg, rgba(3,88,230,1) 0%, rgba(5,209,252,1) 75%);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    font-family: 'Montserrat', sans-serif;
+ 
+
+  
+
+}
+
+
+
+
+#root{
+    max-width: 100%;
+    max-height: 100%;
+  
+}
+
+#about{
+ 
+    background-color: #021530;
+color : white;
+margin-top: 70px;
+
+}
+
+
+
+#contact{
+
+    background-color: #021530;
+color : white;
+margin-top: 70px;
+width: 70vw;
+height: 500px;
+
+
+}
+
+#projects{
+
+    margin-top: 70px;
+text-align: center;
+background-color: #021530;
+color: black;
+
+
+}
+
+
+.card {
+    color: black;
+ 
+}
+
+
+
+.card img {
+    
+    width: 800px;
+   
+    
+    height: 400px;
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    transition: .5s;
+
+
+
+}
+
+
+
+.card img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+
+
+
+.profilePic{
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+
+.picT{
+   position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+  transform: rotate(10deg);
+  
+    
+   
+
+}
+
+.picB{
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: linear-gradient(0deg, rgba(3,88,230,1) 0%, rgba(5,209,252,1) 75%);
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+.repoLink{
+    transition: .5s;
+}
+
+.repoLink:hover{
+    transform: scale(1.2);
+
+}
+
+.desc{
+    margin: auto;
+  width: 300px;
+    height: 200px;
+    overflow: auto;
+}
