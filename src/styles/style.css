@@ -69,24 +69,31 @@ body{
     background-color: #021530;
 color : white;
 margin-top: 70px;
+width: 1000px;
+
+}
+
+#skills{
+    background-color: #021530;
+color : white;
+width: 1000px;
 
 }
 
 
-
 #contact{
-
+    width: 1000px;
     background-color: #021530;
 color : white;
-margin-top: 70px;
-width: 70vw;
+
+
 height: 500px;
 
 
 }
 
 #projects{
-
+    width: 1000px;
     margin-top: 70px;
 text-align: center;
 background-color: #021530;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa'
-
+import { FaPhone } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="row">
           <div className="col-12 text-center mt-5">
             <h1>Hi, I'm Ryan</h1>
-            <h2 style={{color: '#05d1fc' }}>Full Stack Web Developer</h2>
+            <h2 style={{color: '#05d1fc' }}>Developer</h2>
           
           </div>
         </div>
@@ -26,8 +27,22 @@ export default function Home() {
 
 <div>
         <div className="row mt-5">
-          <div className="col-12 text-center">
-             <a className='repoLink' href="https://github.com/Ryguy506" target="_blank">{<FaGithub size={100} color="#fff" />}</a>
+          <div className="col-12 text-center d-flex justify-content-center">
+            <div className='m-3'>
+           <FaGithub size={50} color="#fff" />
+            <p className='mt-2'>github.com/Ryguy506</p>
+             </div>
+             <div className='m-3'>
+             <FaPhone size={50} color="#fff" />
+            <p className='mt-2'>506-653-7098</p>
+              </div>
+              <div className='m-3'>
+             <MdEmail size={50} color="#fff" />
+            <p className='mt-2'>
+            ryan70297@gmail.com
+            </p>
+              </div>
+             
 </div>
         </div>
       </div>
@@ -36,8 +51,9 @@ export default function Home() {
           <div className="col-12 text-center">
           <h2 style={{color: '#05d1fc' }}>About Me</h2>
             <p className='fs-4'>
-            Hello, my name is Ryan and I'm a 20-year-old web developer born and raised in New Brunswick, Canada. I'm passionate about web development and I'm currently studying full-stack web development to pursue a career in this field. I'm excited to launch my career and showcase my skills, which is why I've created this website to display my work. I look forward to expanding my knowledge and staying up-to-date with the latest web development technologies and trends.
+            Hello, my name is Ryan and I'm a 22-year-old developer born and raised in New Brunswick, Canada. I completed a web development bootcamp in 2023 and I am currently enrolled at NBCC in the Programmer Analyst program. I'm excited to launch my career and showcase my skills, which is why I've created this website to display my work. I look forward to expanding my knowledge and staying up-to-date with the latest technologies and trends.
             </p>
+
           </div>
 
         </div>

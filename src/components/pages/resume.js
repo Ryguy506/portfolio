@@ -6,40 +6,28 @@ export default function Resume() {
 
 
     return (
-        <div>
-            <h1>Skills</h1>
+        <div id="skills" className="p-5 container rounded shadow-lg">
+            <h1 style={{color: '#05d1fc' }}>Skills</h1>
             
             <ul>
 
-                <h3>Frontend</h3>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Handlebars.js</li>
-                <li>Bootstrap</li>
-                <li>Bulma</li>
-                <li>jQuery</li>
+             <li>Web Development using HTML, CSS, JavaScript, jQuery, PHP, React, Node.js, Express.js</li>
+             <li>Visual C#.NET, Java</li>
+             <li>ORMs - Entity Framework, Sequelize , Mongoose</li>
+             <li>Database Design and Implementation using: MSSQL, MYSQL, ACCESS, MongoDB
+             </li>
+             <li>Quality Assurance Testing</li>
+             <li>Object-Oriented Analysis and Design with UML</li>
+             <li>Networking Basics</li>
+             <li>Applied and Technical Writing</li>
                 </ul>
-                <ul>
-            <h3>Backend</h3>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>Sequelize</li>
-                <li>Mongoose</li>
-                <li>GraphQL</li>
-                <li>REST</li>
-                <li>APIs</li>
-                 
+            <h1 style={{color: '#05d1fc' }}>Education</h1>
 
+            <ul>
+                <li>Web Development Bootcamp Certificate - University of New Brunswick - 2023</li>
+                <li>IT: Programmer Analyst - New Brunswick Community College - TBD</li>
             </ul>
-            <a href="" className="btn btn-primary" download>  
-        
-            Download Resume
-            
-            </a>
+          
 
 
         </div>

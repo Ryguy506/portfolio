@@ -13,10 +13,12 @@ const Nav = ({currentPage , changePage}) => {
                 <a  className={currentPage === 'about' ? 'activelink' : 'links'} onClick={() => changePage('about')}>about</a>
            
                 <a  className={currentPage === 'projects' ? 'activelink' : 'links' } onClick={() => changePage('projects')}>projects</a>
-              
-                <a  className={currentPage === 'contact' ? 'activelink' : 'links'} onClick={() => changePage('contact')}>contact</a>
 
-                <a  className={currentPage === 'resume' ? 'activelink' : 'links'} onClick={() => changePage('resume')}>resume</a>
+                <a  className={currentPage === 'resume' ? 'activelink' : 'links'} onClick={() => changePage('resume')}>Skills & Education</a>
+              
+        
+
+                
 
                 </div>
         </nav>
